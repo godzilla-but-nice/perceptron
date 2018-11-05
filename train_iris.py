@@ -5,7 +5,7 @@ from perceptron import *
 from plot_decision_regions import *
 import pdb
 
-df = pd.read_csv(training_data/'iris.csv',
+df = pd.read_csv('training_data/iris.csv',
                  header=None)
 
 # get two sets of features (sepal and petal length)
